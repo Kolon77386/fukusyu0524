@@ -28,25 +28,25 @@ namespace fukusyu0524
 
         private void button1_Click(object sender, EventArgs e)
         {
-            vx = 0;
+            vx = -5;
             vy = -10;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             vx = -10;
-            vy = 0;
+            vy = 5;
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             vx = 10;
-            vy = 0;
+            vy = -5;
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            vx = 0;
+            vx = 5;
             vy = 10;
         }
     }
